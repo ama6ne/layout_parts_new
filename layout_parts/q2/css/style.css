@@ -20,20 +20,19 @@ img.jpg_1 img.jpg_2 :first-child {
   margin-top: 0;
 }
 
-img.jpg_1 {
-  float: left; 
-  vertical-align: bottom;
+
+.q2_thumb.is-left img {
+  float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
-
-img.jpg_2 {
+ 
+.q2_thumb.is-right img {
   float: right;
-  vertical-align: bottom;
   margin-left: 20px;
   margin-bottom: 10px;
 }
-  
+
 .q2_text {
   font-size: 18px;
   line-height: 22px;
