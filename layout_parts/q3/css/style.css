@@ -3,15 +3,12 @@
 /* 回答はここに書いてね */
 
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 .q3_content {
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .q3_content th {

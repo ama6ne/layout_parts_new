@@ -16,18 +16,13 @@
   box-sizing: border-box;
 }
 
-img.jpg_1 img.jpg_2 :first-child {
-  margin-top: 0;
-}
-
-
-.q2_thumb.is-left img {
+.q2_thumb.is-left {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
  
-.q2_thumb.is-right img {
+.q2_thumb.is-right {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
