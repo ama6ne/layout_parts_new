@@ -33,11 +33,11 @@ table {
   vertical-align: middle;
 }
 
-.q3_content tbody tr :nth-child(even) {
+.q3_content tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3_content tbody tr :last-child {
+.q3_content tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
