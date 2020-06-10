@@ -48,6 +48,9 @@
 
 /* inline-block　*/
 
+.q7--inlineblock {
+  font-size: 0;
+}
 
 .q7--inlineblock .q7__box {
   display: inline-block;
@@ -81,6 +84,10 @@
 
 /* inline-blockとmargin　*/
 
+.q7--margin {
+  font-size: 0;
+}
+
 .q7--margin .q7__box.is-left {
   display: inline-block;
   width: 300px;
@@ -96,6 +103,7 @@
   padding-left: 350px;
   margin-left: -300px;
   box-sizing: border-box;
+  vertical-align: top;
 }
 
 /* inline-blockとmargin　*/

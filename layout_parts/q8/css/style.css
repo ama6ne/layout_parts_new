@@ -9,7 +9,58 @@
   overflow: hidden;
   margin: 0 auto;
   cursor: pointer;
+  width: 500px;
+  height: 333px;
+}
+
+.q8__trans:hover {
+  transition: all 0.5s;
+  transform : scale(1.2,1.2);
+}
+
+
+.q8__trans.desc {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(0,0,0,0),
+    rgba(0,0,0,.8));
+  transition: all 0.5s; 
+}
+
+.q8__trans.desc-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #FFF;
+  box-sizing: border-box;
+  word-break: break-all;
 }
 
 /* transition */
+
+/* animation */
+
+@keyframes loading {
+  0% { transform: rotate(0deg);}
+  100% { transform: rotate(360deg);}
+}
+
+.q8__animation {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px solid #ecf1f2;
+  border-top-color: #00bcd4;
+  border-radius: 50%;
+  animation: loading 1s infinite linear; 
+} 
+
+/* animation */
+
 /* 回答はここに書いてね */

@@ -2,4 +2,41 @@
 
 /* 回答はここに書いてね */
 
+.q9__fukidashi {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+
+.q9__text_9 {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.q9__fukidashi::before,
+.q9__fukidashi::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top :20px solid #222;
+  border-right :20px solid transparent;
+  border-bottom :20px solid transparent;
+  border-left :20px solid transparent;
+}
+
+.q9__fukidashi::before {
+  border-top-color: #222;
+  left: 30px;
+  bottom: -45px;
+}
+
+.q9__fukidashi::after {
+  border-top-color: #fff;
+  left: 30px;
+  bottom: -38px;
+}
 /* 回答はここに書いてね */
