@@ -2,6 +2,10 @@
 
 /* 回答はここに書いてね */
 
+.q7 .q7__box {
+  width: 225px;
+}
+
 /* float　*/
 
 .clearfix:after {
@@ -10,19 +14,15 @@
   clear: both;
 }
 
-.q7--float .q7__box {
+.q7--float .q7__box.flt {
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
 }
 
-.q7--float .q7__box:first-child {
+.q7--float .q7__box.flt:first-child {
   margin-left: 0;
-}
-
-.q7 .q7__box {
-  width: 225px;
 }
 
 /* float　*/
@@ -33,14 +33,14 @@
   display: table;
 }
 
-.q7--table .q7__box {
+.q7--table .q7__box.tab {
   display: table-cell;
   padding-left: 50px;
   font-size: 16px;
   vertical-align: middle;
 }
 
-.q7--table .q7__box:first-child {
+.q7--table .q7__box.tab:first-child {
   padding-left: 0;
 }
 
@@ -52,7 +52,7 @@
   font-size: 0;
 }
 
-.q7--inlineblock .q7__box {
+.q7--inlineblock .q7__box.ilb {
   display: inline-block;
   margin-left: 50px;
   box-sizing: border-box;
@@ -60,7 +60,7 @@
   font-size: 16px;
 }
 
-.q7--inlineblock .q7__box:first-child {
+.q7--inlineblock .q7__box.ilb:first-child {
   margin-left: 0;
 }
 
@@ -74,7 +74,7 @@
   align-items: flex-end;
 }
 
-.q7--flex .q7__box {
+.q7--flex .q7__box.flex {
   box-sizing: border-box;
   vertical-align: middle;
   font-size: 16px;
