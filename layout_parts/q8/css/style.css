@@ -13,12 +13,17 @@
   height: 333px;
 }
 
-.q8__trans__car:hover {
+.q8__trans:hover .q8__trans.pic--car {
   transition: all .5s ease 0s;
   transform : scale(1.5,1.5);
 }
 
-.q8__trans.t-desc {
+.q8__trans:hover .q8__trans.t--desc {
+  transition: all .5s ease 0s;
+  bottom: 0;
+}
+
+.q8__trans.t--desc {
   position: absolute;
   bottom: -100%;
   left: 0;
