@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q9__fukidashi {
+.q9__blow-ing {
   position: relative;
   width: 500px;
   padding: 20px;
@@ -11,13 +11,13 @@
   margin: 0 auto;
 }
 
-.q9__text_9 {
+.q9--text {
   font-size: 16px;
   line-height: 16px;
 }
 
-.q9__fukidashi::before,
-.q9__fukidashi::after {
+.q9__blow-ing::before,
+.q9__blow-ing::after {
   position: absolute;
   content: "";
   width: 0;
@@ -28,13 +28,13 @@
   border-left :20px solid transparent;
 }
 
-.q9__fukidashi::before {
+.q9__blow-ing::before {
   border-top-color: #222;
   left: 30px;
   bottom: -45px;
 }
 
-.q9__fukidashi::after {
+.q9__blow-ing::after {
   border-top-color: #fff;
   left: 30px;
   bottom: -38px;
